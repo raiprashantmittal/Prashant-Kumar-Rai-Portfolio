@@ -1,28 +1,42 @@
 # Prashant Kumar Rai — Portfolio
 
-A single-page developer portfolio built to showcase experience, projects, and skills as a Full Stack Developer (React.js · Node.js · TypeScript · MongoDB).
+A single-page developer portfolio showcasing experience, projects, and skills as a Software Engineer working across development and testing (Node.js · React.js · MongoDB · API & functional testing).
 
-🔗 **Live site:** [prashantkumarrai.me](https://prashantkumarrai.me) <!-- update once custom domain is live; until then use your github.io URL -->
+**Live site:** https://raiprashantmittal.github.io/Prashant-Kumar-Rai-Portfolio/
 
 ## About
 
 This portfolio highlights:
 
-- **Career Roadmap** — a chronological path from B.Tech through internships, industry roles, and an ongoing M.Tech
-- **Experience** — Aplite InfoSolution, AppnWeb Technologies, QTN Global Services
+- **Career Roadmap** — a chronological path from the QTN internship through B.Tech, development at AppnWeb, an ongoing M.Tech at SGSITS, and quality engineering at Aplite
+- **Experience** — Software Quality Tester at Aplite Info Solutions, Node.js Developer at AppnWeb Technologies, Web Development Intern at QTN Global Services
 - **Flagship Project — CodeForge** — an AI-powered developer platform combining coding practice, real-time code execution, AI mentorship, and gamification
-- **Other Projects** — Real Estate Management Platform, Healthcare Management System, Fake News Detection (LSTM)
-- **Currently Building** — Leankor.ai, an enterprise project management solution on the Salesforce platform
-- **Learning in Public** — live GitHub contribution graph, current DSA / System Design / QA focus areas
-- **Contact & Booking** — direct booking link for a 30-minute call, contact form, and social links
+- **Other Projects** — EyeOnTask (Field Service Management, testing role), Real Estate Management Platform, Healthcare Management System, Fake News Detection (LSTM)
+- **Current Work** — EyeOnTask, a web and mobile Field Service Management platform that I test at Aplite (Client → Request/Quote → Job → Fieldworker → Invoice → Payment → Reports)
+- **Learning** — DSA, system design, QA & testing, and software engineering focus areas, plus a live GitHub contribution graph
+- **Contact** — email, LinkedIn, GitHub, a downloadable resume, and a booking link for a 30-minute call
 
 ## Tech
 
 Built as a single self-contained `index.html` file — no build step, no dependencies:
 
-- HTML5 / CSS3 (custom properties, grid, flexbox, scroll-based animation)
-- Vanilla JavaScript (IntersectionObserver for scroll reveals, form validation, typing effect)
+- HTML5 / CSS3 (custom properties, grid, flexbox)
+- Vanilla JavaScript (IntersectionObserver scroll reveals, mobile menu, project filter, typing effect that respects reduced-motion settings)
 - Google Fonts: JetBrains Mono + Inter
+- Content stays visible if JavaScript is unavailable
+
+## Files
+
+The site needs these three files in the repository root (names are case-sensitive):
+
+```
+index.html
+profile.jpg
+Prashant_Kumar_Rai_Resume.pdf
+```
+
+- `profile.jpg` — profile photo, also used as the link-preview image (square, 400×400 px or larger)
+- `Prashant_Kumar_Rai_Resume.pdf` — the file behind the "Download Resume" buttons
 
 ## Running locally
 
@@ -33,7 +47,7 @@ No build tools required. Either:
 
 ## Deployment
 
-Hosted via **GitHub Pages**. Any push to the `main` branch redeploys automatically.
+Hosted via **GitHub Pages** (branch `main`, folder `/ (root)`). Any push to `main` redeploys automatically, usually within a couple of minutes.
 
 ## Contact
 
